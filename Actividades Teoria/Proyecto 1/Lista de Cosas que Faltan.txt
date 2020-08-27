@@ -1,0 +1,33 @@
+1-Hacer reservaciones X
+2-Rentabilidad de las rutas 
+3-Detalles de los posibles servicios especiales X
+4-Los clientes pueden hacer reservaciones X
+5-Si se hace cancelacion,pago de cargos por cancelacion(depende dependiendo del tiempo de cancelacion) X
+6-La empresa determina las tarifas X
+7-En la reservacion,el ciente elige los asientos,ubicacion y cantidad y resgistrar personas relacionadas
+8-Investigar para servicio de identificacion
+9-Los pasajeros pueden comprar boletos en la boleteria X
+10-Manejo de las boleterias y comprar boletos X
+11-La empresa debe saber la disponibilidad de asientos durante el viaje
+12-Ubicacion durante el viaje del autobus
+13-Donde se bajan los pasajeros,controlar eso
+14-Servicios dentro del autobus 
+
+
+COSAS DEL PROFE
+-Cambiar historial medico por estado de salud,y en la tabla intermedia agregar PK a los otras entidades	
+-Quitar el personal de manera general(dejar los empleados)
+-Autobus con ubicacion del viaje(para saber si siguio la ruta o otra alternativa)
+-Segun el viaje,la valoracion del cliente puede ir variando(fecha)
+-Codigo boletas,ponerlo en la tabla de ventas,porque si no se estaria repitiendo
+-Codigo de comprador,enlazarlo con cliente y que pueda ser NULL,asi no habria problemas con los pasajeros que no estan registrados
+-No es necesario el codigo de pasajero,porque no conocemos nada de los pasajeros(eliminar tabla),
+-Poner asientos como ocupados o no 
+-Para lo de la compra por via web,desarrollar un poco mas en cuanto a la informaciones,por ejemplo,conocer mas informacion del usuario
+(a traves de que acceden,navegador con el se accede)
+-Hacer una subclase vendedor que sea vendedor-web
+-Representar las vias de una manera mas detallada,porque la ruta puede estar bien hasta una parte,y clasificar por rutas y subrutas
+-Predefinir vias alternativas
+
+ 
+											   	

@@ -1,0 +1,3 @@
+create View Vw_Peliculas_90_120 as select titulo, direccion, Fecha_estreno, (SYSDATE - fecha_estreno)/365 as Tiempo_de_Estreno, Genero from peliculas where direccion between 90 AND 120;
+
+Create OR Replace View Estudiantes_v02 as select matricula, nombres ||' ' || P_Apellido || ' ' || S_Apellido as Nombre_Completo, Fecha_Nacimiento, (SYSDATE-Fecha_Nacimiento)/365 as Edad_Aprox, Nombre_Carrera,  Case when Genero = 'F' Then 'Femenino' when Genero = 'M' Then 'Masculimo' Else 'X' End Genero_Desc from DB_Operaciones.estudiantes E, DB_Operaciones.Carreras C where E.carrera = C.codigo_Carrera; 
